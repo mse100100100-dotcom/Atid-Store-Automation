@@ -56,7 +56,7 @@ class TestAtidStore:
                 page.locator(selector).fill(value)
                 
         page.locator("[id='place_order']").click()
-        # הערה: הטסט עשוי להיכשל אם האתר לא מאפשר תשלום כרגע (כמו שראינו בטרמינל)
+        
         expected_payment_method = "visa"
         actual_payement_methods = page.locator("//div[@class='woocommerce-info']").last.inner_text() 
         assert expected_payment_method in actual_payement_methods
