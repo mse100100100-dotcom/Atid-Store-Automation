@@ -1,4 +1,4 @@
-This is a Proof-of-Concept (PoC) project designed to demonstrate basic Playwright integration and Git workflow.
+This is a Proof-of-Concept project designed to demonstrate basic Playwright integration and Git workflow.
 Atid Store - Web Automation Project
 Project Overview
 This repository contains an automated end-to-end (E2E) testing suite for the Atid Store e-commerce website. The project demonstrates professional test automation practices, focusing on reliability, maintainability, and clean code.
